@@ -1,1 +1,1 @@
-vue-dischi
+vue-email-list
