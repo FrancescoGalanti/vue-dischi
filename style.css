@@ -1,0 +1,76 @@
+/* General setting */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Lato', sans-serif;
+  color: #fff;
+  background: #1e2d3b;
+}
+
+
+/* Utilities */
+
+
+/* Layout img */
+
+img{
+   max-width: 100%;
+}
+
+
+/* Header */
+
+.app-header{
+  padding: 10px 10px 5px;
+  background: #2e3a46;
+}
+
+
+.app-header img{
+  max-height: 50px;
+}
+
+
+.cds-list{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 50px 10px;
+  list-style: none;
+}
+
+
+.cd{
+  flex-basis: 200px;
+  margin: 10px 20px;
+  padding: 20px;
+  text-align: center;
+  background: #2e3a46;
+}
+
+
+.img-wraper{
+  min-height: 160px;
+}
+
+.cd .title{
+  text-transform: uppercase;
+  font-size: 21px;
+  margin: 20px 0;
+}
+
+.cd .author,
+.cd .year{
+  margin-bottom: 10px;
+  color: gray;
+
+}
+
+.cd .author{
+  font-size: 18px;
+}
