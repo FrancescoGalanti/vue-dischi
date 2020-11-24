@@ -35,6 +35,15 @@ img{
   max-height: 50px;
 }
 
+.genre-filter{
+  text-align: center;
+  margin-top: 50px;
+}
+
+.genre-filter select{
+  margin-left: 10px;
+}
+
 
 .cds-list{
   display: flex;
